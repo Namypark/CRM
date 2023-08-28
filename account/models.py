@@ -37,6 +37,7 @@ class AccountManager(BaseUserManager):
         )
         # The set_password is an inbuilt function
         user.set_password(password)
+
         user.save(using=self._db)
         return user
 

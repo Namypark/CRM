@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 from pathlib import Path
+from telnetlib import AUTHENTICATION
 import django_browser_reload
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -87,6 +88,7 @@ DATABASES = {
 }
 
 AUTH_USER_MODEL = "account.Account"
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
