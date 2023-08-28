@@ -1,0 +1,11 @@
+.alert {
+    display: flex;
+    margin: 0 auto;
+    width:40%;   
+    margin-top: 5px;
+    justify-content: space-evenly;
+ }
+
+ .body{
+    color: blacks;
+ }
